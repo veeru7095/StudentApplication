@@ -35,7 +35,7 @@ public class Student {
 	@Column(name="student_address",unique=true, nullable=false)
 	private String address;
 
-	@Enumerated(EnumType.STRING)
+	
 	@Column(name="roles",nullable = false)
 	private String role;
 }
