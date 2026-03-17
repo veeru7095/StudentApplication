@@ -3,7 +3,7 @@ FROM eclipse-temurin
 
 WORKDIR /app
 
-COPY tar	get/Student_Application-0.0.1-SNAPSHOT.jar app.jar
+COPY target/Student_Application-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 
